@@ -2,12 +2,14 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div className="bg-blue-500">
-        <h1>Salón La Giralda By Ivonnet</h1>
-        <a target="blanc" href="">Nosotros</a>
-        <a target="blanc" href="">Sucursales</a>
-        <a target="blanc" href="">Servicios</a>
-        <a target="blanc" href="">Turnos</a>
+    <div className=" font-serif ">
+        <div className=' text-center flex flex-row p-10 bg-violet-400'>
+          <h1 className='text-3xl'>Salón La Giralda By Ivonnet</h1>
+        <a className='p-5' target="blanc" href="">Nosotros</a>
+        <a className='p-5' target="blanc" href="">Sucursales</a>
+        <a className='p-5' target="blanc" href="">Servicios</a>
+        <a className='p-5' target="blanc" href="">Turnos</a>
+        </div>
     </div>
   )
 }
