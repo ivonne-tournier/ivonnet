@@ -1,8 +1,8 @@
 
 const WithFriends = () => {
   return (
-    <ul className="flex justify-center w-full h-48 font-calibri bg-violet-200">
-      <li className="flex flex-col p-3 font-calibri justify-center text-center w-15 h-full">
+    <ul className="flex justify-center w-full h-48 font-calibri bg-violet-300">
+      <li className="flex flex-col justify-center h-full p-3 text-center font-calibri w-15">
         ¡Suscribite, comparti y recibi nuevas promociones!
         <li> ¡Descarga nuestra App Mobile!</li>
        
@@ -10,7 +10,7 @@ const WithFriends = () => {
         <a target="_blank" href="https://api.whatsapp.com/send?phone=541128060400">
           <svg
             data-icon="whatsapp"
-            className="text-white w-14 h-14 mt-4 svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="mt-4 text-white w-14 h-14 svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -24,7 +24,7 @@ const WithFriends = () => {
         <a target="_blank" href="https://www.instagram.com/salonlagiraldabyivonnet/?hl=es">
           <svg
             data-icon="instagram"
-            className="text-white w-14 h-14 mt-4 svg-inline--fa fa-instagram sm:hover:text-violet-300 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="mt-4 text-white w-14 h-14 svg-inline--fa fa-instagram sm:hover:bg-gradient-to-r from-pink-300 to-violet-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -38,7 +38,7 @@ const WithFriends = () => {
         <a
           target="_blank"
           href="https://www.afip.gob.ar"
-          className=" w-10 h-12 ml-1 mt-4 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300 "
+          className="w-10 h-12 mt-4 ml-1 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
         >
           <img
             src="https://latolderiaonline.com.ar/wp-content/themes/latolderia/source/img/data-fiscal.jpg"
