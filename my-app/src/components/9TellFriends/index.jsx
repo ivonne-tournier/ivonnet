@@ -4,8 +4,6 @@ const WithFriends = () => {
     <ul className="flex justify-center w-full h-48 font-calibri bg-violet-300">
       <li className="flex flex-col justify-center h-full p-3 text-center font-calibri w-15">
         ¡Suscribite, comparti y recibi nuevas promociones!
-        <li> ¡Descarga nuestra App Mobile!</li>
-       
         <li className="flex flex-row flex-wrap content-center justify-center">
         <a target="_blank" href="https://api.whatsapp.com/send?phone=541128060400">
           <svg

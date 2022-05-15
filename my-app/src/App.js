@@ -4,6 +4,7 @@ import Banner from './components/2Banner';
 import LastOfers from './components/3LastOfers';
 import TellFriends from "./components/9TellFriends";
 import Footer from './components/10Footer';
+import Carousel from './components/carrousel/index2';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <LastOfers/>
       <TellFriends/>
       <Footer/>
+      <Carousel/>
     </div>
   );
 }
