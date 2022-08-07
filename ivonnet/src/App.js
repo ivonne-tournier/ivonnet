@@ -12,9 +12,9 @@ function App() {
       <NavBar/>
       <Banner/>
       <LastOfers/>
+      <Carrousel/>
       <TellFriends/>
       <Footer/>
-      <Carrousel/>
     </div>
   );
 }

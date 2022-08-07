@@ -1,12 +1,11 @@
 import {useState} from 'react';
 import { createRef } from 'react';
-import { Component } from 'react';
-import peinado from "../Img/peinado.jpg"
-import peinado1 from "../Img/peinado1.jpg"
-import peinado3 from "../Img/peinado3.jpg"
-
+import nosotros from "../Img/nosotros.jpeg"
+import nosotros1 from "../Img/nosotros1.jpeg"
+import nosotros2 from "../Img/nosotros2.jpeg"
+import nosotros3 from "../Img/nosotros3.jpeg"
     const images = 
-    [peinado , peinado1, peinado3, ]
+    [nosotros, nosotros1, nosotros2,nosotros3 ]
 
     
     const Carousel = () => {
@@ -64,7 +63,7 @@ import peinado3 from "../Img/peinado3.jpg"
           <div className="relative w-50">
           <div className="flex flex-wrap items-center justify-center w-full h-auto p-6 space-x-4 space-y-2 font-serif bg-violet-200">
         <p className="flex items-center justify-center w-full mb-2 text-xl bg-violet-200 font-calibri h-30">
-        <strong>¡ÚLTIMAS OFERTAS!</strong>
+        <strong>¡Un poco mas de nuestro trabajo!</strong>
       </p>
         <ul className="w-40 bg-violet-200 font-calibri h-70">
           <li>
@@ -79,9 +78,8 @@ import peinado3 from "../Img/peinado3.jpg"
               </li>
           </li>
           <li className="m-2 font-bold text-center bg-violet-300 ">
-            Peinados
+            Para que veas lo que logramos...
           </li>
-          <li>Variedad de estilos para que elijas</li>
         </ul></div>
               
             </div>
